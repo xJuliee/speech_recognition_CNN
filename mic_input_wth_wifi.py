@@ -12,7 +12,7 @@ import time
 import serial
 
 # --- Load Pretrained Model ---
-model = load_model('../MOD7Project - CNN with manual search/best_model.h5')
+model = load_model('../speech_recognition_CNN/best_model.h5')
 
 # --- Load Label Encoder ---
 le = LabelEncoder()

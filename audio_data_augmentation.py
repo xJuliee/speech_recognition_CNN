@@ -6,7 +6,7 @@ import librosa
 import numpy as np
 import soundfile as sf
 
-input_dir = '../MOD07Project - CNN with manual search/final_audio_files'
+input_dir = '../speech_recognition_CNN/final_audio_files'
 output_dir = 'FINAL_augmented_final_audio_files'
 
 sample_rate = 16000

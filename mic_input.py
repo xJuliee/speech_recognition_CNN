@@ -21,7 +21,7 @@ sock.connect((esp8266_ip, esp8266_port))
 print(f"Connected to ESP8266 at {esp8266_ip}:{esp8266_port}")
 
 # Load the saved pre-trained model
-model = load_model('../MOD7Project - CNN with manual search/best_model.h5')
+model = load_model('../speech_recognition_CNN/best_model.h5')
 
 # Label Encoder
 le = LabelEncoder()
