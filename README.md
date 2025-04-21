@@ -2,7 +2,6 @@
 A Convolutional Neural Network (CNN) project for speech command recognition using MFCCs (Mel-Frequency Cepstral Coefficients). This model is trained to recognize specific voice commands ("Forward", "Back", "Left", "Right" and "Stop") from audio input, with support for real-time inference via microphone and TensorFlow Lite deployment.
 
 # Project Structure:
-.
 - Audio.py                         # Preprocessing and MFCC extraction
 - data_augmentation.py             # Audio augmentation functions
 - main.py                          # Training and evaluation
