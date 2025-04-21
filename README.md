@@ -15,6 +15,7 @@ The system is designed to interface with an Arduino Mega2560 microcontroller, ei
 - Pipfile                          # Python environment setup
 - README.md                        # This file
 - Various audio & MFCC folders     # Audio data and extracted features
+- Arduino & RP6                    # Folder for Arduino & RP6 Codes and Library
 
 # Requirements:
 Key libraries:
