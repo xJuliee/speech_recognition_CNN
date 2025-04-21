@@ -3,17 +3,17 @@ A Convolutional Neural Network (CNN) project for speech command recognition usin
 
 # Project Structure:
 .
-→ Audio.py                         # Preprocessing and MFCC extraction
-→ data_augmentation.py             # Audio augmentation functions
-→ main.py                          # Training and evaluation
-→ mic_input.py                     # Live microphone input with WiFi
-→ mic_input_no_wifi.py             # Offline microphone input
-→ best_model.h5                    # Best trained CNN model
-→ original_model.h5                # Initial model before tuning
-→ tflite_model.tflite              # Lightweight TFLite model for deployment
-→ Pipfile                          # Python environment setup
-→ README.md                        # This file
-→ Various audio & MFCC folders     # Audio data and extracted features
+- Audio.py                         # Preprocessing and MFCC extraction
+- data_augmentation.py             # Audio augmentation functions
+- main.py                          # Training and evaluation
+- mic_input.py                     # Live microphone input with WiFi
+- mic_input_no_wifi.py             # Offline microphone input
+- best_model.h5                    # Best trained CNN model
+- original_model.h5                # Initial model before tuning
+- tflite_model.tflite              # Lightweight TFLite model for deployment
+- Pipfile                          # Python environment setup
+- README.md                        # This file
+- Various audio & MFCC folders     # Audio data and extracted features
 
 # Requirements:
 Key libraries:
