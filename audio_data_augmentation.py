@@ -1,4 +1,5 @@
 # Code written by Juliette Gelderland and Ana Antohi
+# Augments the audio files to increase the dataset
 
 import os
 import librosa
@@ -7,8 +8,6 @@ import soundfile as sf
 
 input_dir = '../MOD07Project - CNN with manual search/final_audio_files'
 output_dir = 'FINAL_augmented_final_audio_files'
-
-# Augment the audio files to increase the dataset
 
 sample_rate = 16000
 duration = 1.5  # in seconds

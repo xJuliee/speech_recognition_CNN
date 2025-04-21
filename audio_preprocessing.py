@@ -1,5 +1,5 @@
 # Code written by Juliette Gelderland and Ana Antohi
-# For extracting the mfcc features from the augmented audio files
+# For extracting the MFCC features from the (augmented) audio files
 
 import os
 import numpy as np

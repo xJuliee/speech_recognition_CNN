@@ -3,4 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Pipenv (MOD07Project - CNN with manual search)" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Pipenv (speech_recognition_CNN)" project-jdk-type="Python SDK" />
 </project>

@@ -1,3 +1,7 @@
+# Code written by Juliette Gelderland and Ana Antohi
+# Labels microphone input based on the pre-trained CNN model
+# Sends the predicted labels to ATmega2560 via UART Serial Communication (USB)
+
 import numpy as np
 import sounddevice as sd
 import librosa
@@ -5,7 +9,7 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 from sklearn.preprocessing import LabelEncoder
 import time
-import serial  # <- NEW
+import serial
 
 # --- Load Pretrained Model ---
 model = load_model('../MOD7Project - CNN with manual search/best_model.h5')
