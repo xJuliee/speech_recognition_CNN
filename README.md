@@ -22,5 +22,8 @@ Key libraries:
 - scikit-learn (https://scikit-learn.org/stable/)
 - Matplotlib, Seaborn (for visualization) (https://matplotlib.org/ and https://seaborn.pydata.org/)
 
+# CNN Model Architecture:
+![image](https://github.com/user-attachments/assets/aefbf2b8-03fe-4849-8782-9a0a1537716c)
+
 # Written by:
 Juliette Gelderland and Ana Antohi
