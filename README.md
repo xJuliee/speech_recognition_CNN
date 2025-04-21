@@ -2,14 +2,14 @@
 A Convolutional Neural Network (CNN) project for speech command recognition using MFCCs (Mel-Frequency Cepstral Coefficients). This model is trained to recognize specific voice commands ("Forward", "Back", "Left", "Right" and "Stop") from audio input, with support for real-time inference via microphone and TensorFlow Lite deployment.
 
 # Project Structure:
-- Audio.py                         # Preprocessing and MFCC extraction
-- data_augmentation.py             # Audio augmentation functions
-- main.py                          # Training and evaluation
+- audio_preprocessing.py           # Preprocessing and MFCC extraction
+- audio_data_augmentation.py       # Audio augmentation functions
+- speech_recognition_CNN.py        # Training the CNN and evaluation of the CNN
 - mic_input.py                     # Live microphone input with WiFi
-- mic_input_no_wifi.py             # Offline microphone input
+- mic_input_wth_wifi.py            # Offline microphone input
 - best_model.h5                    # Best trained CNN model
 - original_model.h5                # Initial model before tuning
-- tflite_model.tflite              # Lightweight TFLite model for deployment
+- micro_best_model.tflite          # Lightweight TFLite model for deployment
 - Pipfile                          # Python environment setup
 - README.md                        # This file
 - Various audio & MFCC folders     # Audio data and extracted features
