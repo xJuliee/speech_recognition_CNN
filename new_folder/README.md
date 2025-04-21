@@ -17,9 +17,9 @@ Once this setup is complete:
 # Arduino Code:
 Choose the appropriate Arduino sketch based on your hardware setup:
 No ESP8266 or other WiFi module?
-➤ Use Arduino_Master_RP6.ino
+- Use Arduino_Master_RP6.ino
 Using ESP8266 WiFi module?
-➤ Use Arduino_Master_RP6_WiFi.ino
+- Use Arduino_Master_RP6_WiFi.ino
 
 Upload the selected .ino file to your Arduino Mega2560 using the Arduino IDE.
 Modify the code as needed:
