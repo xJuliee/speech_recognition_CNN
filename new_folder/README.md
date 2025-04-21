@@ -28,4 +28,5 @@ Modify the code as needed:
 
 Connect your Arduino to the RP6 Robot following the schematic below:
 ![{F7B62DCD-AD5C-472C-B946-A30AF7A1D306}](https://github.com/user-attachments/assets/d0d3734e-b2c6-4f3c-8058-7454b052e9a7)
+
 Note: If you are not using an ESP8266 WiFi module, establish the connection between your laptop and Arduino via USB/UART instead of WiFi.
