@@ -1,5 +1,5 @@
 # speech_recognition_CNN
-A Convolutional Neural Network (CNN) project for speech command recognition using MFCCs (Mel-Frequency Cepstral Coefficients). This model is trained to recognize specific voice commands from audio input, with support for real-time inference via microphone and TensorFlow Lite deployment.
+A Convolutional Neural Network (CNN) project for speech command recognition using MFCCs (Mel-Frequency Cepstral Coefficients). This model is trained to recognize specific voice commands ("Forward", "Back", "Left", "Right" and "Stop") from audio input, with support for real-time inference via microphone and TensorFlow Lite deployment.
 
 # Project Structure:
 .
@@ -22,3 +22,6 @@ Key libraries:
 - SoundDevice (https://python-sounddevice.readthedocs.io/en/0.5.1/)
 - scikit-learn (https://scikit-learn.org/stable/)
 - Matplotlib, Seaborn (for visualization) (https://matplotlib.org/ and https://seaborn.pydata.org/)
+
+# Written by:
+Juliette Gelderland and Ana Antohi
